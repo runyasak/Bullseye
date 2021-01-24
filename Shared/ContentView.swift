@@ -16,7 +16,14 @@ struct ContentView: View {
                     .padding()
                 Text("89")
             }
-            Slider(value: .constant(50), in: 1.0...100.0)
+            HStack {
+                Text("1")
+                Slider(value: .constant(50), in: 1.0...100.0)
+                Text("100")
+            }
+            Button(action: {}) {
+                Text("Hit me")
+            }
         }
     }
 }
