@@ -12,8 +12,10 @@ struct ContentView: View {
         VStack {
             VStack {
                 Text("PUT THE BULLEYE AS CLOSE AS YOU CAN TO")
+                    .bold()
                     .multilineTextAlignment(.center)
-                    .padding()
+                    .lineSpacing(4.0)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 Text("89")
             }
             HStack {
